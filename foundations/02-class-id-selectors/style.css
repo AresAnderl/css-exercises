@@ -6,13 +6,10 @@ font-family: "Verdana", "DejaVu Sans", sans-serif;
 font-size: 36px;
 }
 
-.odd-cooler {background-color: rgb(252, 174, 186);
-    font-family: "Verdana", "DejaVu Sans", sans-serif;
-    font-size: 24px;
+.but-cooler {font-size: 24px;
     }
 
     #Number4 {background-color: #90ee90;
-    font-size: 25px;
 font-weight: bold;}
 
 * **All odd numbered elements**: a light red/pink background, and a list of fonts containing `Verdana` and `DejaVu Sans` with `sans-serif` as a fallback
