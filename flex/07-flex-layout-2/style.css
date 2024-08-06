@@ -16,6 +16,20 @@ body {
   color: darkmagenta;
 }
 
+/* solution */
+
+body {
+  display: flex;
+flex-direction: column;
+}
+
+.header {font-size: 32px;
+font-weight: 900;
+display: flex;
+flex-direction: column;
+justify-content: center;
+padding: 0 16px;}
+
 .sidebar {
   width: 300px;
   background: royalblue;
@@ -27,3 +41,46 @@ body {
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
 }
+
+
+.medium-part {
+  display: flex;
+  flex: 1;
+}
+
+.sidebar {
+  width: 300px;
+flex-shrink: 0;
+padding: 16px;}
+
+.container-cards {
+  display: flex;
+flex-wrap: wrap;
+gap: 10px;
+justify-content: center;
+padding: 25px;
+}
+
+.card {
+  width: 300px;
+height: auto;
+text-align: center;
+flex-wrap: nowrap;
+gap: 16px;
+}
+
+.footer {text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+a {text-decoration: none;
+  color: white;
+}
+
+ul {list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  gap: 5px;}
